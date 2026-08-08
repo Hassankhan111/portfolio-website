@@ -1,0 +1,539 @@
+       @include('partails.header')
+
+
+       <!-- Hero Section -->
+       <section class="hero-section" id="home">
+           <div class="container-fluid h-100">
+
+               <div class="row h-100">
+
+                   <!-- Left Side -->
+                   <div class="col-lg-5">
+
+                       <div class="left-panel">
+
+                           <div class="profile-image">
+
+                               <img src="{{ asset('assets/images/logo.png') }}" alt="Profile">
+
+                           </div>
+
+                           <div class="bottom-cards">
+
+                               <div class="info-box">
+                                   <h2>Education</h2>
+                                   <div class="card m-3 education-card">
+                                       <div class=" card-body">
+                                           <h5 class="card-title">Bachelor of Computer Science</h5>
+                                           <h6 class="card-subtitle mb-2 text-muted">Comsats University Islamabad
+                                           </h6>
+                                           <p class="card-text">Graduated in 2020 </p>
+                                       </div>
+                                   </div>
+
+                                   <div class="card m-3 education-card">
+                                       <div class="card-body">
+                                           <h5 class="card-title">12th Grade Certification</h5>
+                                           <h6 class="card-subtitle mb-2 text-muted">charbagh safa High School
+                                           </h6>
+                                           <p class="card-text">Graduated in 2013 </p>
+                                       </div>
+                                   </div>
+
+                               </div>
+
+                           </div>
+
+                       </div>
+
+                   </div>
+
+                   <!-- Right Side -->
+                   <div class="col-lg-7">
+
+                       <div class="right-panel">
+
+                           <!-- Greeting -->
+                           <span class="hero-tag">
+                               👋 Hello There!
+                           </span>
+
+                           <!-- Name -->
+                           <h1 class="hero-title">
+                               I'm <span>Mohammad Imran</span>
+                           </h1>
+
+                           <!-- Profession -->
+                           <h2 class="hero-subtitle">
+                               FULL-STACK DEVELOPER
+                           </h2>
+
+                           <!-- Description -->
+                           <p class="hero-text">
+                               I am a passionate Full-Stack Developer with over 5 years of experience building
+                               modern, scalable, and high-performance web applications. I turn your ideas into
+                               powerful digital solutions by developing custom websites, web apps, and full-scale
+                               platforms tailored to your needs. My skills include PHP, Laravel, JavaScript, React,
+                               Node.js, Express.js, HTML5, CSS3, Bootstrap, and more. I focus on clean code,
+                               responsive design, and user-friendly experiences. I have worked in eCommerce,
+                               education, telecom, and healthcare. Let’s build something amazing together.
+                           </p>
+
+                           <!-- Buttons -->
+                           <div class="hero-buttons">
+
+                               <a href="#" class="btn btn-dark btn-lg">
+                                   Hire Me
+                               </a>
+
+                               <a href="#" class="btn btn-outline-dark btn-lg">
+                                   Download CV
+                               </a>
+
+                           </div>
+
+                           <div class="stats-section">
+
+                               <div class="stat-card">
+
+                                   <h3>5+</h3>
+
+                                   <p>Years Learning</p>
+
+                               </div>
+
+                               <div class="stat-card">
+
+                                   <h3>50+</h3>
+
+                                   <p>Projects</p>
+
+                               </div>
+
+                               <div class="stat-card">
+
+                                   <h3>20+</h3>
+
+                                   <p>Technologies</p>
+
+                               </div>
+
+                           </div>
+
+                       </div>
+
+                   </div>
+
+               </div>
+
+           </div>
+       </section>
+
+       <!-- #language and tools -->
+       <section class="language-tools-section py-3" id="language-tools">
+           <div class="container-fluid">
+
+               <div class="language-tools-card">
+
+                   <h2 class="section-title">Languages & Tools</h2>
+
+                   <div class="tools-icons">
+
+                       <div class="tool-item">
+                           <i class="fab fa-html5"></i>
+                           <span>HTML5</span>
+                       </div>
+
+                       <div class="tool-item">
+                           <i class="fab fa-css3-alt"></i>
+                           <span>CSS3</span>
+                       </div>
+
+                       <div class="tool-item">
+                           <i class="fab fa-js-square"></i>
+                           <span>JavaScript</span>
+                       </div>
+
+                       <div class="tool-item">
+                           <i class="fab fa-php"></i>
+                           <span>PHP</span>
+                       </div>
+
+                       <div class="tool-item">
+                           <i class="fab fa-laravel"></i>
+                           <span>Laravel</span>
+                       </div>
+
+                       <div class="tool-item">
+                           <i class="fab fa-react"></i>
+                           <span>React</span>
+                       </div>
+
+                       <div class="tool-item">
+                           <i class="fab fa-node-js"></i>
+                           <span>Node.js</span>
+                       </div>
+
+                       <div class="tool-item">
+                           <i class="fab fa-bootstrap"></i>
+                           <span>Bootstrap</span>
+                       </div>
+
+                       <div class="tool-item">
+                           <i class="fab fa-git-alt"></i>
+                           <span>Git</span>
+                       </div>
+
+                       <div class="tool-item">
+                           <i class="fab fa-github"></i>
+                           <span>GitHub</span>
+                       </div>
+
+                       <div class="tool-item">
+                           <i class="fab fa-docker"></i>
+                           <span>Docker</span>
+                       </div>
+
+                       <!-- Express.js -->
+                       <div class="tool-item">
+                           <i class="fab fa-node-js"></i>
+                           <span>Express.js</span>
+                       </div>
+
+                       <!-- AJAX -->
+                       <div class="tool-item">
+                           <i class="fas fa-arrows-rotate"></i>
+                           <span>AJAX</span>
+                       </div>
+
+                       <!-- SQL -->
+                       <div class="tool-item">
+                           <i class="fas fa-database"></i>
+                           <span>SQL</span>
+                       </div>
+
+                       <!-- MongoDB -->
+                       <div class="tool-item">
+                           <i class="fas fa-leaf"></i>
+                           <span>MongoDB</span>
+                       </div>
+
+                   </div>
+
+               </div>
+
+           </div>
+       </section>
+
+       <!-- #services section-->
+       <section class="services-section" id="services">
+
+           <div class="container-fluid">
+
+               <h2 class="section-title">My Services</h2>
+
+               <div class="row g-4">
+
+                   <!-- Service 1 -->
+                   <div class="col-lg-4 col-md-6">
+                       <div class="service-card">
+
+                           <div class="service-icon">
+                               <i class="fas fa-code"></i>
+                           </div>
+
+                           <h4>Laravel Development</h4>
+
+                           <p>
+                               Build secure, scalable, and high-performance web applications
+                               using Laravel, PHP, MySQL, and REST APIs.
+                           </p>
+
+                       </div>
+                   </div>
+
+                   <!-- Service 2 -->
+                   <div class="col-lg-4 col-md-6">
+                       <div class="service-card">
+
+                           <div class="service-icon">
+                               <i class="fas fa-laptop-code"></i>
+                           </div>
+
+                           <h4>Full Stack Development</h4>
+
+                           <p>
+                               Complete web application development using Laravel,
+                               Bootstrap, JavaScript, AJAX, and MySQL.
+                           </p>
+
+                       </div>
+                   </div>
+
+                   <!-- Service 3 -->
+                   <div class="col-lg-4 col-md-6">
+                       <div class="service-card">
+
+                           <div class="service-icon">
+                               <i class="fas fa-database"></i>
+                           </div>
+
+                           <h4>Database Design</h4>
+
+                           <p>
+                               Design optimized MySQL databases with relationships,
+                               indexing, and efficient query performance.
+                           </p>
+
+                       </div>
+                   </div>
+
+                   <!-- Service 4 -->
+                   <div class="col-lg-4 col-md-6">
+                       <div class="service-card">
+
+                           <div class="service-icon">
+                               <i class="fas fa-mobile-alt"></i>
+                           </div>
+
+                           <h4>Responsive Design</h4>
+
+                           <p>
+                               Create mobile-friendly, responsive websites using
+                               Bootstrap 5, HTML5, and modern CSS.
+                           </p>
+
+                       </div>
+                   </div>
+
+                   <!-- Service 5 -->
+                   <div class="col-lg-4 col-md-6">
+                       <div class="service-card">
+
+                           <div class="service-icon">
+                               <i class="fas fa-bolt"></i>
+                           </div>
+
+                           <h4>REST API Development</h4>
+
+                           <p>
+                               Develop secure RESTful APIs with authentication,
+                               validation, and JSON responses.
+                           </p>
+
+                       </div>
+                   </div>
+
+                   <!-- Service 6 -->
+                   <div class="col-lg-4 col-md-6">
+                       <div class="service-card">
+
+                           <div class="service-icon">
+                               <i class="fas fa-headset"></i>
+                           </div>
+
+                           <h4>Maintenance & Support</h4>
+
+                           <p>
+                               Provide bug fixes, feature updates, optimization,
+                               deployment, and ongoing technical support.
+                           </p>
+
+                       </div>
+                   </div>
+
+               </div>
+
+           </div>
+
+       </section>
+
+       <!-- #projects section-->
+       <section class="projects-section" id="project">
+           <div class="container-fluid">
+
+               <h2 class="section-title">Projects</h2>
+
+               <div class="row">
+
+                   <div class="col-lg-4 col-md-6 mb-4">
+                       <div class="card project-card">
+
+                           <div class="project-image">
+                               <img src="{{ asset('assets/images/nexuslogin.jpg') }}" class="card-img-top"
+                                   alt="Project 1">
+                           </div>
+
+                           <div class="card-body">
+                               <h5 class="card-title">Nexus platform</h5>
+
+                               <p class="card-text">
+                                   A nexus platform where investors and interprenure colobration with each other
+                                   built with php Laravel, MySQL, Bootstrap, AJAX and node js socket.io for real
+                                   time chat and video conference
+                               </p>
+
+                               <a href="#" class="btn project-btn">
+                                   View Project
+                               </a>
+                           </div>
+
+                       </div>
+                   </div>
+
+
+                   <div class="col-lg-4 col-md-6 mb-4">
+                       <div class="card project-card">
+
+                           <div class="project-image">
+                               <img src="{{ asset('assets/images/project2.jpg') }}" class="card-img-top"
+                                   alt="Project 2">
+                           </div>
+
+                           <div class="card-body">
+
+                               <h5 class="card-title">
+                                   Laravel E-Commerce Platform
+                               </h5>
+
+                               <p class="card-text">
+
+                                   A full-stack eCommerce application built with Laravel,
+                                   MySQL, Bootstrap, AJAX and authentication.
+                               </p>
+
+                               <a href="https://github.com/Hassankhan111" target="_blank" class="btn project-btn">
+                                   View Project
+                               </a>
+
+                           </div>
+
+                       </div>
+                   </div>
+
+                   <div class="col-lg-4 col-md-6 mb-4">
+                       <div class="card project-card">
+
+                           <div class="project-image">
+                               <img src="{{ asset('assets/images/chat.pg.jpg') }}" class="card-img-top" alt="Project 2">
+                           </div>
+
+                           <div class="card-body">
+
+                               <h5 class="card-title">
+                                   Real-Time Chat Application
+                               </h5>
+
+                               <p class="card-text">
+                                   WhatsApp-like chat application using Node.js,
+                                   Express.js, Socket.io, MySQL and EJS.
+                               </p>
+
+                               <a href="https://github.com/Hassankhan111" target="_blank" class="btn project-btn">
+                                   View Project
+                               </a>
+
+                           </div>
+
+                       </div>
+                   </div>
+
+                   <div class="col-lg-4 col-md-6 mb-4">
+                       <div class="card project-card">
+
+                           <div class="project-image">
+                               <img src="{{ asset('assets/images/chatbot.png.png') }}" class="card-img-top"
+                                   alt="Project 4">
+                           </div>
+
+                           <div class="card-body">
+                               <h5 class="card-title">Chatbot Application</h5>
+
+                               <p class="card-text">
+                                   An intelligent chatbot application built with PHP, Laravel, and natural language
+                                   processing
+                                   for automated customer support and engagement
+                               </p>
+
+                               <a href="https://github.com/Hassankhan111" class="btn project-btn">
+                                   View Project
+                               </a>
+                           </div>
+
+                       </div>
+                   </div>
+
+
+                   <div class="col-lg-4 col-md-6 mb-4">
+                       <div class="card project-card">
+
+                           <div class="project-image">
+                               <img src="{{ asset('assets/images/nexus dashboard.jpg') }}" class="card-img-top"
+                                   alt="Project 2">
+                           </div>
+
+                           <div class="card-body">
+
+                               <h5 class="card-title">
+                                   Nexus Dashboard
+                               </h5>
+
+                               <p class="card-text">
+
+                                   A responsive dashboard for role-based access of Nexus platform built with
+                                   Laravel,
+                                   MySQL, Bootstrap, javascript and AJAX for real-time data visualization and
+                                   analytics.
+                               </p>
+
+                               <a href="https://github.com/Hassankhan111" target="_blank" class="btn project-btn">
+                                   View Project
+                               </a>
+
+                           </div>
+
+                       </div>
+                   </div>
+
+                   <div class="col-lg-4 col-md-6 mb-4">
+                       <div class="card project-card">
+
+                           <div class="project-image">
+                               <img src="{{ asset('assets/images/portfolio.jpg.webp') }}" class="card-img-top"
+                                   alt="Project 2">
+                           </div>
+
+                           <div class="card-body">
+
+                               <h5 class="card-title">
+                                   Portfolio Website
+                               </h5>
+
+                               <p class="card-text">
+                                   A responsive portfolio website built with HTML, CSS, JavaScript,
+                                   and Bootstrap.
+                               </p>
+                               <a href="https://github.com/Hassankhan111" target="_blank" class="btn project-btn">
+                                   View Project
+                               </a>
+
+                           </div>
+
+                       </div>
+                   </div>
+
+
+               </div>
+
+           </div>
+       </section>
+
+       <!-- Footer Section -->
+       @include('partails.footer')
+
+       </div>
+
+
+       </div>
+
+       </body>
