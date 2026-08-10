@@ -58,7 +58,7 @@ To run this project locally:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+git clone https://github.com/hassankhan111/portfolio.git
 ```
 
 ### 2. Navigate to the project directory
@@ -90,7 +90,7 @@ Add screenshots of your portfolio here.
 
 If you'd like to get in touch, feel free to contact me through:
 
-* **Email:** [your.email@example.com](mailto:your.email@example.com)
+* armanimran240@gmail.com](mailto:your.email@example.com)
 * **GitHub:** https://github.com/YOUR_USERNAME
 * **LinkedIn:** https://www.linkedin.com/in/YOUR_USERNAME
 * **Portfolio:** https://example.com
