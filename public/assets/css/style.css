@@ -6,10 +6,14 @@
 
 body {
     font-family: "Outfit", sans-serif;
-
+    color: #222;
     background: #ecece8;
-
     padding: 50px;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
 }
 
 /* Whole Website */
@@ -17,6 +21,7 @@ body {
 .portfolio-wrapper {
     max-width: 1500px;
     margin: auto;
+    color: #222;
 }
 
 /* White Card */
@@ -73,8 +78,8 @@ body {
 
 /* Resume Button */
 
-.resume-btn {
-    background: #202020;
+.theme-toggle {
+    background: gray;
 
     color: #fff;
 
@@ -83,10 +88,11 @@ body {
     padding: 10px 26px;
 
     font-weight: 600;
+    border: 2px solid white;
 }
 
-.resume-btn:hover {
-    background: #000;
+.theme-toggle:hover {
+    background: black;
 
     color: #fff;
 }
@@ -588,6 +594,7 @@ body {
 
 .services-section {
     padding: 90px 40px;
+    margin-top: 40px;
     background: #f8f9fc;
 }
 
@@ -1190,4 +1197,28 @@ textarea.form-control {
 
 .skill-item {
     height: 100%;
+}
+
+/*dashboard CSS enhancement*/
+.admin-header {
+    background-color: #f7df1e;
+}
+.message-content {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #374151;
+    white-space: normal;
+}
+
+.table > :not(caption) > * > * {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.card {
+    border-radius: 14px;
+}
+
+.badge {
+    font-weight: 500;
 }

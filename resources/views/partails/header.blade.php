@@ -40,15 +40,19 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#">ABOUT</a>
+                                <a class="nav-link" href="/about">ABOUT</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#project">PROJECTS</a>
+                                <a class="nav-link" href="/tools">SERVICES</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#language-tools">SKILLS</a>
+                                <a class="nav-link" href="/projects">PROJECTS</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="/tools">SKILLS</a>
                             </li>
 
                             <li class="nav-item">
@@ -57,13 +61,16 @@
 
                         </ul>
 
-                        <a href="#" class="btn resume-btn">
-                            Resume
-                        </a>
+                        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                            🌙
+                        </button>
 
                     </div>
 
                 </div>
 
             </nav>
-            <!-- Navbar End -->
+            <!-- Navbar End -->'
+
+            <!-- javascript for dark mode -->
+            <script src="{{ asset('assets/js/main.js') }}"></script>

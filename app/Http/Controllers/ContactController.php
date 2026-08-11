@@ -15,6 +15,7 @@ class ContactController extends Controller
             'email' => 'required|email|max:255',
             'subject' => 'nullable|string|max:255',
             'message' => 'required|string',
+             'status' => 'unread',
         ]);
 
         // Save the contact message to the database

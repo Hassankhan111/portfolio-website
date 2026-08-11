@@ -31,15 +31,15 @@
 
                  <ul class="footer-links">
 
-                     <li><a href="#home">Home</a></li>
+                     <li><a href="/">Home</a></li>
 
-                     <li><a href="#about">About</a></li>
+                     <li><a href="/about">About</a></li>
 
-                     <li><a href="#language-tools">Skills</a></li>
+                     <li><a href="/tools">Skills</a></li>
 
-                     <li><a href="#project-section">Projects</a></li>
+                     <li><a href="/projects">Projects</a></li>
 
-                     <li><a href="#services">Services</a></li>
+                     <li><a href="/tools">Services</a></li>
 
                      <li><a href="/contact">Contact</a></li>
 

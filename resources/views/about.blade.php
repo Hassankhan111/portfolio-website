@@ -1,5 +1,8 @@
-@include('partails.header')
+@extends('layout.app')
 
+@section('title','about')
+
+@section('main')
 <section class="about-section">
     <div class="container">
 
@@ -9,20 +12,14 @@
             <div class="col-md-8 mb-4">
                 <h2 class="about">Mohammad Imran</h2>
                 <p class="about-text">
-                    Hello! I'm Imran, a passionate web developer with a love for creating
-                    dynamic and user-friendly
-                    websites. With a strong foundation in HTML, CSS, JavaScript, and PHP, I enjoy bringing ideas to
-                    life
-                    on the web.
-                    My journey in web development started a few years ago, and since then, I've been dedicated to
-                    honing
-                    my skills and staying up-to-date with the latest technologies. I believe in writing clean,
-                    efficient
-                    code and delivering high-quality solutions to clients.
-                    When I'm not coding, you can find me exploring new technologies, contributing to open-source
-                    projects, or enjoying a good book. I'm always eager to take on new challenges and collaborate
-                    with
-                    like-minded individuals.
+
+                    I am a dedicated and passionate web developer with a strong focus on creating dynamic and
+                    user-friendly websites. With expertise in HTML, CSS, JavaScript, and PHP, I enjoy bringing ideas
+                    to life on the web. My journey in web development has been driven by a commitment to writing
+                    clean,
+                    efficient code and delivering high-quality solutions to clients. I am always eager to take on
+                    new
+                    challenges and collaborate with like-minded individuals to create innovative web experiences.
                 </p>
             </div>
 
@@ -46,13 +43,20 @@
                     <h2 class="about">About Me</h2>
 
                     <p class="about-text">
-                        I am a dedicated and passionate web developer with a strong focus on creating dynamic and
-                        user-friendly websites. With expertise in HTML, CSS, JavaScript, and PHP, I enjoy bringing ideas
-                        to life on the web. My journey in web development has been driven by a commitment to writing
-                        clean,
-                        efficient code and delivering high-quality solutions to clients. I am always eager to take on
-                        new
-                        challenges and collaborate with like-minded individuals to create innovative web experiences.
+                        Hello! I'm Imran, a passionate web developer with a love for creating
+                        dynamic and user-friendly
+                        websites. With a strong foundation in HTML, CSS, JavaScript, and PHP, I enjoy bringing ideas to
+                        life
+                        on the web.
+                        My journey in web development started a few years ago, and since then, I've been dedicated to
+                        honing
+                        my skills and staying up-to-date with the latest technologies. I believe in writing clean,
+                        efficient
+                        code and delivering high-quality solutions to clients.
+                        When I'm not coding, you can find me exploring new technologies, contributing to open-source
+                        projects, or enjoying a good book. I'm always eager to take on new challenges and collaborate
+                        with
+                        like-minded individuals.
                     </p>
 
                     <div class="whychoseme mt-4">
@@ -90,8 +94,8 @@
 
                 <div class="col-lg-6">
                     <div class="skill-item">
-                        <h3>Full Stack Web Developer – Baheer Group (BG)</h3>
-                        <span class="experience-date">Apr 2023 – Present</span>
+                        <h3>Junior Full Stack Web Developer – Pa Byta lahore pakistan</h3>
+                        <span class="experience-date">jan 2023 – present 2 yrs 3 mos </span>
 
                         <ul class="experience-list">
                             <li>Front-end development using HTML, Bootstrap, Vue.js & jQuery.</li>
@@ -104,36 +108,36 @@
 
                 <div class="col-lg-6">
                     <div class="skill-item">
-                        <h3>Web Developer & SEO Analyst – Qader Zaher Group (QZG)</h3>
-                        <span class="experience-date">Oct 2022 – Apr 2023</span>
+                        <h3>Web Developer & Requirements Analyst – abasyn software house</h3>
+                        <span class="experience-date">Oct 2020 – Apr 2021</span>
 
                         <ul class="experience-list">
-                            <li>WordPress website development and maintenance.</li>
-                            <li>Stripe & PayPal payment gateway integration.</li>
-                            <li>SEO optimization and analytics implementation.</li>
+                            <li> website development and maintenance.</li>
+                            <li>Api and payment gateway integration.</li>
+                            <li>Requirements analysis and documentation.</li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="col-lg-6">
                     <div class="skill-item">
-                        <h3>Web Developer & Social Media Manager – AAHO</h3>
-                        <span class="experience-date">Mar 2022 – Sep 2022</span>
+                        <h3>AI Chatbot integration Developer –paragon full time</h3>
+                        <span class="experience-date">May 2023 – Sep 2024</span>
 
                         <ul class="experience-list">
-                            <li>WordPress, HTML, CSS & JavaScript development.</li>
-                            <li>Social media management and marketing.</li>
-                            <li>Payment gateway integration.</li>
+                            <li>chatbot development and integration.</li>
+                            <li>email marketing and automation.</li>
+                            <li>AI model training and deployment.</li>
                             <li>Project management and reporting.</li>
-                            <li>Website maintenance and updates.</li>
+                            <li>open Ai integration.</li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="col-lg-6">
                     <div class="skill-item">
-                        <h3>Full Stack Web Developer & SEO Analyst – Qamar Charity Foundation</h3>
-                        <span class="experience-date">May 2020 – Jan 2022</span>
+                        <h3>freelance web development – Self-employed</h3>
+                        <span class="experience-date">May 2022 – 2026 present</span>
 
                         <ul class="experience-list">
                             <li>Website development and maintenance.</li>
@@ -147,29 +151,29 @@
 
                 <div class="col-lg-6">
                     <div class="skill-item">
-                        <h3>IT Officer & Web Developer – Ghazi Amanullah Khan Institute of Health Sciences</h3>
-                        <span class="experience-date">Jun 2017 – May 2020</span>
+                        <h3>data science & AI –Riphah International University lahore pakistan</h3>
+                        <span class="experience-date">Jun 2022 – May 2024</span>
 
                         <ul class="experience-list">
-                            <li>Computer lab management and maintenance.</li>
-                            <li>Web-based database administration.</li>
-                            <li>LAN setup and maintenance.</li>
-                            <li>Website maintenance and updates.</li>
-                            <li>Student documentation and diploma management.</li>
+                            <li>covid-19 dataset analysis</li>
+                            <li>supervised learning and unsupervised learning</li>
+                            <li>machine learning model development</li>
+                            <li>data visualization and reporting</li>
+                            <li>AI model training and deployment</li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="col-lg-6">
                     <div class="skill-item">
-                        <h3>Computer & English Teacher – Al-Quran Private High School</h3>
-                        <span class="experience-date">Mar 2015 – May 2017</span>
+                        <h3>MERN stack developer – ARCH technology Remote</h3>
+                        <span class="experience-date">Mar 2019 – May 2019 </span>
 
                         <ul class="experience-list">
-                            <li>Computer lab instruction and practical training.</li>
-                            <li>English language teaching.</li>
-                            <li>Student motivation and career guidance.</li>
-                            <li>Teacher computer skills training.</li>
+                            <li>web development and maintenance</li>
+                            <li>web design</li>
+                            <li>dashboard development</li>
+                            <li>ecommerce website development</li>
                         </ul>
                     </div>
                 </div>
@@ -179,5 +183,4 @@
         </div>
     </div>
 </section>
-
-@include('partails.footer')
+@endsection
