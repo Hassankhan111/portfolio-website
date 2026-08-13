@@ -273,7 +273,7 @@
                                         <form method="POST" action="{{ route('delete-user', $contact->id) }}}}"
                                             onsubmit="return confirm('Delete this message?')">
                                             @csrf
-                                            @method('POST')
+                                            @method('Delete')
 
                                             <button class="dropdown-item text-danger">
                                                 <i class="bi bi-trash me-2"></i>

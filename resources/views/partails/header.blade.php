@@ -44,7 +44,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="/tools">SERVICES</a>
+                                <a class="nav-link" href="/services">SERVICES</a>
                             </li>
 
                             <li class="nav-item">
@@ -52,11 +52,11 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="/tools">SKILLS</a>
+                                <a class="nav-link" href="/skill">SKILLS</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="/contact">CONTACT</a>
+                                <a class="nav-link" href="/contect">CONTACT</a>
                             </li>
 
                         </ul>

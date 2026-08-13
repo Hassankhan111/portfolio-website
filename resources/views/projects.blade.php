@@ -180,6 +180,5 @@
     </div>
 </section>
 
-@include('services')
 
 @endsection

@@ -23,9 +23,9 @@ class ContactController extends Controller
           
          if($contact){
             // Redirect back with a success message
-            return redirect('/contact')->with('success', 'Your message has been sent!');
+            return redirect('/contect')->with('success', 'Your message has been sent!');
         }
         // Redirect back with an error message
-        return redirect('/contact')->with('error', 'Failed to send your message.');
+        return redirect('/contect')->with('error', 'Failed to send your message.');
     }
 }

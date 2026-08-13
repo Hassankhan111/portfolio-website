@@ -84,7 +84,7 @@
 
                         @if($data->status === 'unread')
 
-                        <form method="POST" action="{{ route('show-user', $data->id) }}">
+                        <form method="POST" action="{{ route('contact.read', $data->id) }}">
                             @csrf
                             @method('PATCH')
 
@@ -225,7 +225,7 @@
 
                     <form method="POST" action="{{ route('delete-user', $data->id) }}"
                         onsubmit="return confirm('Are you sure you want to delete this message?')">
-
+                        @method('Delete')
                         @csrf
 
                         <button class="btn btn-outline-danger w-100">

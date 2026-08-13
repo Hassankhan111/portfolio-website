@@ -1,8 +1,11 @@
 <?php
 
 use App\Http\Controllers\AdminController;
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Controller;
+
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ProfileController;
+use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
@@ -12,34 +15,42 @@ Route::get('/about', function () {
     return view('about');
 });
 
-route::get('/projects', function (){
+Route::get('/services', function () {
+    return view('services');
+});
+
+Route::get('/projects', function () {
     return view('projects');
 });
 
-route::get('/tools', function (){
+Route::get('/skill', function () {
     return view('tools');
 });
 
-Route::get('/contact', function () {
+Route::get('/contect', function () {
     return view('contact');
 });
-/* backend admin dashboard------------------------------------------------------- */
-Route::get('/admin', function () {
-    return view('Dashboard.admin');
+
+route::post('contact-save', [ContactController::class, 'save'])->name('contact-save');
+
+/* backend-----------------------------------------------------------------------------*/
+ 
+
+
+Route::get('/user', function () {
+    return view('dashboard.showuser');
 });
 
-Route::get('/show-user', function () {
-    return view('Dashboard.showuser');
-});
-
-Route::get('/user/{id}', [AdminController::class, 'getuser'])->name('show-user');
+route::GET('admin', [AdminController::class, 'index'])->middleware(['admin'])->name('admin');
+require __DIR__.'/auth.php';
 
 
-Route::get('/admin', [AdminController::class, 'index'])->name('adminget');
 
-route::post('user-delete/{id}',[AdminController::class, 'destroy'])->name('delete-user');
+route::get('showuser/{id}', [AdminController::class, 'getuser'])->name('show-user');
 
-Route::patch('/admin/contact/{id}/read', [AdminController::class, 'markAsRead'])
-    ->name('contact.read');
 
-Route::post('/contact-save', [ContactController::class, 'save'])->name('contact-save');
+route::delete('destroy/{id}', [AdminController::class, 'destroy'])->name('delete-user');
+
+
+route::PATCH('markAsRead/{id}', [AdminController::class, 'markAsRead'])->name('contact.read');
+require __DIR__.'/auth.php';

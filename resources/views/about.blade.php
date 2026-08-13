@@ -24,8 +24,8 @@
             </div>
 
             <div class="col-md-4 mb-4">
-                <img class="about-image" src="{{ asset('assets/images/dsc-0247.jpg') }}" alt="About Me"
-                    class="img-fluid rounded">
+                <img class="about-image" src="{{ asset('assets/images/myimg.jpg') }}" style="width:400px; height:400px"
+                    ; alt="About Me" class="img-fluid rounded">
             </div>
 
         </div>

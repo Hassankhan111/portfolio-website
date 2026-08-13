@@ -13,10 +13,13 @@
         </div>
 
         <div class="d-flex gap-2">
-            <button class="btn btn-success">
-                <i class="bi bi-download me-1"></i>
-                Export
-            </button>
+            <form method="POST" action="{{ route('logout') }}">
+                @csrf
+                <button class="btn btn-success">
+                    <i class="bi bi-download me-1"></i>
+                    Logout
+                </button>
+            </form>
         </div>
     </div>
 
