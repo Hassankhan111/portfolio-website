@@ -95,7 +95,7 @@
         </div>
     </div>
 
-    <div class="card-body p-0">
+    <div class="card-body p-2">
 
         <div class="table-responsive">
 
