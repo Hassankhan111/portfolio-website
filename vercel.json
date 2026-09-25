@@ -1,4 +1,3 @@
-@'
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
@@ -14,4 +13,3 @@
     }
   ]
 }
-'@ | Set-Content vercel.json
