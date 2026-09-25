@@ -5,11 +5,11 @@ use Monolog\Handler\StreamHandler;
 
 return [
 
-    'default' => env('LOG_CHANNEL', 'stderr'),
+    'default' => 'stderr',
 
     'deprecations' => [
-        'channel' => env('LOG_DEPRECATIONS_CHANNEL', 'null'),
-        'trace' => env('LOG_DEPRECATIONS_TRACE', false),
+        'channel' => 'null',
+        'trace' => false,
     ],
 
     'channels' => [
@@ -20,13 +20,7 @@ return [
             'with' => [
                 'stream' => 'php://stderr',
             ],
-            'level' => env('LOG_LEVEL', 'debug'),
-        ],
-
-        'stack' => [
-            'driver' => 'stack',
-            'channels' => ['stderr'],
-            'ignore_exceptions' => false,
+            'level' => 'debug',
         ],
 
         'null' => [
