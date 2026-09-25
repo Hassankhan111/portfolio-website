@@ -1,17 +1,16 @@
 <?php
 
-// Vercel logging configuration
-
 use Monolog\Handler\NullHandler;
 use Monolog\Handler\StreamHandler;
+use Monolog\Processor\PsrLogMessageProcessor;
 
 return [
 
-    'default' => 'stderr',
+    'default' => env('LOG_CHANNEL', 'stderr'),
 
     'deprecations' => [
-        'channel' => 'null',
-        'trace' => false,
+        'channel' => env('LOG_DEPRECATIONS_CHANNEL', 'null'),
+        'trace' => env('LOG_DEPRECATIONS_TRACE', false),
     ],
 
     'channels' => [
@@ -22,7 +21,16 @@ return [
             'with' => [
                 'stream' => 'php://stderr',
             ],
-            'level' => 'debug',
+            'level' => env('LOG_LEVEL', 'debug'),
+            'processors' => [
+                PsrLogMessageProcessor::class,
+            ],
+        ],
+
+        'stack' => [
+            'driver' => 'stack',
+            'channels' => ['stderr'],
+            'ignore_exceptions' => false,
         ],
 
         'null' => [
