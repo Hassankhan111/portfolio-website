@@ -1,5 +1,7 @@
 <?php
 
+// Vercel logging configuration
+
 use Monolog\Handler\NullHandler;
 use Monolog\Handler\StreamHandler;
 
