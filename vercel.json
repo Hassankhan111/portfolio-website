@@ -11,17 +11,17 @@
       "dest": "/api/index.php"
     }
   ],
- "env": {
-  "APP_ENV": "production",
-  "APP_DEBUG": "true",
-  "APP_URL": "https://portfolio-website-cdx6.vercel.app",
+  "env": {
+    "APP_ENV": "production",
+    "APP_DEBUG": "true",
+    "APP_URL": "https://portfolio-website-cdx6.vercel.app",
 
-  "CACHE_STORE": "array",
-  "SESSION_DRIVER": "cookie",
-  "QUEUE_CONNECTION": "sync",
-  "BROADCAST_CONNECTION": "null",
+    "CACHE_STORE": "array",
+    "SESSION_DRIVER": "cookie",
+    "QUEUE_CONNECTION": "sync",
+    "BROADCAST_CONNECTION": "null",
 
-  "LOG_CHANNEL": "stderr",
-  "LOG_LEVEL": "debug"
-}
+    "LOG_CHANNEL": "stderr",
+    "LOG_LEVEL": "debug"
+  }
 }
