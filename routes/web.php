@@ -7,6 +7,18 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
+
+Route::get('/vercel-test', function () {
+    return response()->json([
+        'status' => 'Laravel is running',
+        'env' => app()->environment(),
+        'log_channel' => config('logging.default'),
+        'log_path' => config('logging.channels.single.path', 'NO_SINGLE_CHANNEL'),
+    ]);
+});
+
+
+
 Route::get('/', function () {
     return view('index');
 });
