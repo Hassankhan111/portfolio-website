@@ -2,7 +2,6 @@
 
 use Monolog\Handler\NullHandler;
 use Monolog\Handler\StreamHandler;
-use Monolog\Processor\PsrLogMessageProcessor;
 
 return [
 
@@ -22,9 +21,6 @@ return [
                 'stream' => 'php://stderr',
             ],
             'level' => env('LOG_LEVEL', 'debug'),
-            'processors' => [
-                PsrLogMessageProcessor::class,
-            ],
         ],
 
         'stack' => [
